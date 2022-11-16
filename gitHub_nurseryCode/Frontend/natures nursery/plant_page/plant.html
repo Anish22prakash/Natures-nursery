@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>plant</title>
+    <link rel="stylesheet" href="../css/plant.css"/>
+    
+    <style>
+       
+
+    </style>
+    
+</head>
+<body>
+     <!--NAVBAR NATURES NURSERY-->
+           <!--NAVBAR UPPER BODY-->
+
+           <div id="navbar_upper_body">
+
+            <div id="navbar_logo">
+                <img id="nn_logo" src="https://images.assetsdelivery.com/compings_v2/wikagraphic/wikagraphic2102/wikagraphic210200976.jpg">
+                <h1 id="logo_name">Nature's <h1 id="logo_name2">Nursery</h1>  </h1>
+            </div>
+    
+            <div id="navbar_search">
+    
+                <div id="search_bar">
+                    <input
+                     type="text"
+                     name="searchbar"
+                     id="searchbar"
+                     placeholder="What are you looking for ?"
+                    />
+                    <button id="searchbutton" onclick="searchButton()">Search</button>
+                </div>
+            </div>
+    
+            <div id="navbar_signin">
+                <img id="login_logo" src="https://thumbs.dreamstime.com/b/vector-illustration-isolated-white-background-login-button-icon-login-icon-button-126998484.jpg">
+                <a href="../login_page/login.html"><h3 id="login_title">Login/SignUp</h3></a>
+            </div>
+    
+            <div id="navbar_cart">
+                <img id="cart_logo" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+                <h3 id="cart_title">Cart</h3>
+            </div>
+            <h2 id="customerName"></h2>
+    
+        </div>
+    
+    
+        <!--NAVBAR LOWER BODY-->
+        <div id="navbar_lower_body">
+            <a href="../index.html"><h3 id="home_title">Home</h3></a>
+            <a href="../plant_page/plant.html"><h3 id="plant_title">Plants</h3></a>
+           
+            <a href="../seed_page/seed.html"><h3 id="seed_title">Seeds</h3></a>
+            <a href="../planters_page/planter.html"><h3 id="planter_title">Planters</h3></a>
+            <a href="../index.html"><h3 id="logout" onclick="logout()">About</h3></a>
+    
+        </div>
+
+
+        <!--PRODUCT PAGE-->
+
+        <div id="plant_product">
+
+
+        </div>
+
+
+
+         <!--FOOTER PART-->
+    <div id="appdownload">
+        <div>Garden as though you will live forever</div>
+        <div>
+            <h2>Download the App for free</h2>
+            <div class="playstore">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/4e4f1cab.png" alt="">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/83095c03.png" alt="">
+  
+            </div>
+        </div>
+       
+    </div>
+    <!-- Footer -->
+    <div id="footer">
+        <div id="contacts">
+            <!--All Contact Details Column wise-->
+            <div>
+                <!-- First Column -->
+               
+                    <!-- Company -->
+                    <h3>Company</h3>
+                    <a class="hello" href="">About Natures Nursery</a>
+                    <a class="hello" href="">Privacy Policy</a>
+                    <a class="hello" href="">Refund Policy</a>
+                    <a class="hello" href="">Shipping Policy</a>
+                    
+            </div>
+            <div>
+                <!-- Second Column -->
+  
+                    <!-- Featured Categories -->
+                    <h3>Gardening Knowledge</h3>
+                    <a class="hello" href="">Blogs > Plant Talk</a>
+                    <a class="hello" href="">Blog > Kitchen Gardening</a>
+                    <a class="hello" href="">Blogs > Top 10 Plants</a>
+                    <a class="hello" href="">Blog > Plant Styling and DIY's</a>
+                    <a class="hello" href="">Blogs > Sustainable Living</a>
+                    <a class="hello" href="">blog.naturesnursery.com</a>
+                    <a class="hello" href="">wiki.naturesnursery.com</a>
+                    
+            </div>
+            <div>
+                <!-- Third Column -->
+  
+                    <!-- Need Help -->
+                    <h3>Useful Links</h3>
+                    <a class="hello" href="">Track Order</a>
+                    <a class="hello" href="">Orders</a>
+                    <a class="hello" href="">Rewards</a>
+                    <a class="hello" href="">FAQs</a>
+  
+                    <!-- Policy Info -->
+                    <!-- <h3>Policy Info</h3>
+                    <a class="hello" href="">Editorial Policy</a>
+                    <a class="hello" href="">Privacy Policy</a>
+                    <a class="hello" href="">Vulnerability Disclosure Policy</a>
+                    <a class="hello" href="">Terms and Conditions</a>
+                    <a class="hello" href="">Customer Support Policy</a>
+                    <a class="hello" href="">Return Policy</a> -->
+  
+            </div>
+            <div>
+                <!-- Fourth Column -->
+                <h3>FOLLOW US</h3>
+                <div class="images">
+                    <img class="socialmediaimg" src="https://cute-jalebi-e15c39.netlify.app/Social%20Media%20icons/instagram.png" alt="">
+                    <img class="socialmediaimg" src="https://cute-jalebi-e15c39.netlify.app/Social%20Media%20icons//facebook.png" alt="">
+                    <img class="socialmediaimg" src="https://cute-jalebi-e15c39.netlify.app/Social%20Media%20icons//youtube.png" alt="">
+                    <img class="socialmediaimg" src="https://cute-jalebi-e15c39.netlify.app/Social%20Media%20icons//twitter.png" alt="">
+    
+                </div>
+            </div>
+        </div>
+        <div id="paypart">
+            <!--Our Payment Partners-->
+            <h3>Our Payment Partners</h3>
+            <div class="partenrimg">
+                <img class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/Gpay.svg" alt="">
+                <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/paytm.svg" alt="">
+                <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/amazonpay.svg" alt="">
+                <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/phonepe.svg" alt="">
+                <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/mobikwik.svg" alt="">
+                <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/airtelPay.svg" alt="">
+                <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/OlaMoney.svg" alt="">
+                <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/visa.svg" alt="">
+                <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/rupay.svg" alt="">
+               
+            </div>
+            <span> &copy; 2022 Natures Nursery. All Rights Reserved</span>
+          </div>
+</body>
+</html>
+
+<script>
+
+async function allPlant(){
+   
+    try{
+    let response = await fetch('http://localhost:8060/naturenursery/viewAllPlant',{
+        method: 'GET',
+        headers : {'Content-Type' : 'application/json'}
+    });
+    console.log(response);
+    let  dat = await response.json();
+    //console.log(dat)
+    append(dat);
+     
+}
+catch(error){
+    console.log("error is",error);
+}
+}
+allPlant();
+
+
+let searchButton= async() =>{
+    try{
+        let query=document.getElementById("searchbar").value
+        var url= `http://localhost:8060/naturenursery/viewPlantByName/${query}`
+        var res= await fetch(url,{
+            method:'GET',
+            headers : {'Content-Type' : 'application/json'}
+        })
+
+        var user =await res.json()
+
+        console.log(user)
+        append(user)
+    }
+    catch(error){
+        console.log(error)
+    }
+}
+let append= (data) =>{
+    let cont=document.getElementById("plant_product");
+    document.getElementById("plant_product").innerHTML=null
+     
+    data.forEach (function(el){
+    
+    let div=document.createElement("div")
+    div.setAttribute("id","insidebox")
+
+    let img=document.createElement("img")
+    img.src=el.url
+    img.setAttribute("id","plant_image")
+
+     let h2=document.createElement("h2");
+     h2.innerText=el.commonName;
+     h2.setAttribute("id","plant_name")
+
+     let para=document.createElement("p");
+     para.innerText=`₹${el.plantCost}`
+     para.setAttribute("id","plant_price")
+
+     let footerdiv=document.createElement("div");
+     footerdiv.setAttribute("id","footerdiv")
+     let buydiv=document.createElement("div");
+     buydiv.setAttribute("id","buydiv")
+     buydiv.innerText="Buy Now"
+     let cartdiv=document.createElement("div");
+     cartdiv.setAttribute("id","cartdiv");
+     cartdiv.innerText="Add to cart"
+
+     footerdiv.append(buydiv,cartdiv);
+
+
+  div.append(img,h2,para,footerdiv);
+
+   cont.append(div)
+    })
+}
+
+
+if(localStorage.getItem("name")!="hi,guest"){
+  let cname=document.getElementById("customerName");
+  cname.innerText=`hi,${localStorage.getItem("name")}`;
+  
+  let lout=document.getElementById("logout");
+  lout.innerText="Logout";
+}
+if(localStorage.getItem("name")=="hi,guest"){
+    let cname=document.getElementById("customerName");
+  cname.innerText=`${localStorage.getItem("name")}`;
+}
+
+let logout=async()=>{
+  console.log("anish")
+ localStorage.setItem("name","hi,guest");
+ let cname=document.getElementById("customerName");
+ cname.innerText=localStorage.getItem("name")
+
+ let uuid=localStorage.getItem("uuid");
+
+ let response= await fetch(`http://localhost:8060/naturenursery/logout?key=${uuid}`,{
+  method:"PATCH",
+  headers : {'Content-Type' : 'application/json'},
+ })
+ let dat= await response.json();
+ console.log(dat)
+localStorage.setItem("uuid","");
+ 
+}
+
+</script>

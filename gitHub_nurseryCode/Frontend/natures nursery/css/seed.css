@@ -1,0 +1,326 @@
+html, body {
+    min-height: 100%;
+      }
+
+        #navbar_upper_body{
+            display: flex;
+            height: 100px;
+            border: 1px  black;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+      
+
+        #navbar_logo{
+            display: flex;
+            
+            height: 100%;
+            width: 30%;
+           
+        }
+        #navbar_search{
+           
+            width: 40%;
+            
+        }
+        #navbar_signin{
+           
+            width: 20%;
+            display: flex;
+        }
+        #navbar_cart{
+            
+            width: 20%;
+            display: flex;
+        }
+
+
+        #nn_logo{
+            border-radius: 50%;
+            height: 70%;
+            margin-left: 7%;
+            margin-top: 3%;
+        }
+        #logo_name{
+            margin-left: 5%;
+            margin-top: 7%;
+            color: rgb(52, 124, 52);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+        }
+        #logo_name2{
+            margin-left: 2%;
+            margin-top: 7%;
+            color: rgb(228, 213, 129);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #searchbar{
+            width: 90%;
+            height: 25px;
+            margin-left: 5%;
+            margin-top: 6.5%;
+            border: 2px solid rgb(52, 124, 52);
+            border-radius: 5px;
+        }
+        #searchbutton{
+            width: 12%;
+            height: 25px;
+            margin-left: 0%;
+            margin-top: 6.5%;
+            border: 2px solid rgb(52, 124, 52);
+            border-radius: 5px;
+            align-items: center;
+        }
+        #login_logo{
+            height: 50%;
+            margin-top: 8.5%;
+            margin-left: 15%;
+        }
+        #login_title{
+            margin-top: 32%;
+            margin-left: 5%;
+            color:rgb(52, 124, 52);
+            cursor: pointer;
+        }
+        #login_title:hover{
+            color: rgb(228, 213, 129);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        a{
+            text-decoration: none;
+        }
+        #cart_logo{
+            height: 50%;
+            margin-top: 8.5%;
+            margin-left: 15%;
+        }
+        #cart_title{
+            margin-top: 14%;
+            margin-left: 2%;
+            color:rgb(52, 124, 52);
+            cursor: pointer;
+        }
+
+        #cart_title:hover{
+            color: rgb(228, 213, 129);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #navbar_lower_body{
+            height: 40px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-around;
+            align-items: center; 
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        #navbar_lower_body>a>h3{
+            cursor: pointer;
+            color:rgb(52, 124, 52) ;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #navbar_lower_body>a>h3:hover{
+            color: rgb(228, 213, 129);
+            font-family: 'Courier New', Courier, monospace
+           
+        }
+        #search_bar{
+            display: flex;
+            
+        }
+        #plant_product{
+            display: grid;
+           
+            grid-template-columns: repeat(4,25%);
+            grid-gap: 1%;
+            margin-top: 2%;
+          
+        }
+        #insidebox{
+            border: 1px solid;
+            width: 60%;
+            height: 350px;
+            box-shadow:  rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            margin-left: 15%;
+            margin-top: 10%;
+        }
+        #insidebox:hover{
+            cursor: pointer;
+        }
+        #plant_image{
+            height: 50%;
+            width: 100%;
+            margin-top: 15%;
+        }
+        #plant_name{
+            text-align: center;
+            font-size: 16px;
+            font-family: cursive;
+            overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+        }
+        #plant_price{
+            text-align: center;
+            font-size: 16px;
+            color: orange;
+            font-family: cursive;
+        }
+        #footerdiv{
+          
+            display: flex;
+            height: 10%;
+            width: 100%;
+            
+        }
+        #buydiv{
+            border: 1px solid;
+            width: 50%;
+            height: 100%;
+            background-color: rgb(52, 124, 52) ;
+            font-size: 16px;
+            padding: 10px 2px 2px 25px;
+            color: white;
+            
+        }
+        #cartdiv{
+            border: 1px solid;
+            width: 50%;
+            height: 100%;
+            background-color: rgb(228, 213, 129);
+            font-size: 16px;
+            padding: 10px 2px 2px 25px;
+            color: white;
+        }/* footer part CSS */
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#appdownload{
+    width: 100%;
+    height: 300px;
+    background-color:antiquewhite ;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+#appdownload>div:nth-child(1)
+{
+    padding-top: 50px;
+    color: rgb(228, 213, 129);
+    font-size: 26px;
+    font-weight: 700;
+}
+#appdownload>div:nth-child(2){
+    margin-top: 100px;
+    color: gray;
+}
+
+
+.playstore{
+    /* top margin added to h2 in appdownload id */
+    margin-top: 20px;
+    width: 28%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.playstore>img{
+    width: 45%;
+
+}
+.playstore>img:hover{
+    cursor: pointer;
+}
+
+#footer{
+   position: relative;
+   bottom: 0px;
+   left: 0px;
+    width: 100%;
+    /* border: 1px solid; */
+    background-color: antiquewhite;
+}
+
+#contacts{
+    width: 95%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+#contacts>div{
+    width: 40%;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    margin-left: 20px;
+    text-align:left ;
+    line-height: 30px;
+    /* color: black; */
+    
+   
+}
+.hello{
+    display: block;
+    text-decoration: none;
+    color: gray ;
+    width: 100%;
+    height: auto;
+  
+}
+.hello:hover{
+    cursor: pointer;
+}
+
+#contacts>div:last-child>div{
+    width: 70%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-images{
+    width: 100%;
+}
+.socialmediaimg{
+    width:18%;
+    
+}
+
+.socialmediaimg:hover{
+    cursor: pointer;
+}
+
+#paypart{
+    width: 93%;
+    /* border: 1px solid; */
+    margin: 0px auto;
+    margin-bottom: 40px ;
+    margin-top: 10px;
+   
+}
+
+.partenrimg{
+    /* border: 1px solid red; */
+    display: inline-block;
+    width: 63%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    
+}
+
+.paymentimg{
+    width:6%;
+    height: 35px;
+    margin: 0px 3px;
+}
+
+#paypart>span{
+    float: right;
+    color: gray;
+}
+#customerName{
+  color: green;
+  font-family: cursive;
+  margin-top: 2%;
+}

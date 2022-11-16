@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+
+
+    <!--NAVBAR NATURES NURSERY-->
+           <!--NAVBAR UPPER BODY-->
+
+    <div id="navbar_upper_body">
+
+        <div id="navbar_logo">
+            <img id="nn_logo" src="https://images.assetsdelivery.com/compings_v2/wikagraphic/wikagraphic2102/wikagraphic210200976.jpg">
+            <h1 id="logo_name">Nature's <h1 id="logo_name2">Nursery</h1>  </h1>
+        </div>
+
+        <div id="navbar_search">
+
+            <div id="search_bar"><input
+                onchange="SearchBox()"
+                 type="text"
+                 name="searchbar"
+                 id="searchbar"
+                 placeholder="What are you looking for ?"
+                /></div>
+        </div>
+
+        <div id="navbar_signin">
+            <img id="login_logo" src="https://thumbs.dreamstime.com/b/vector-illustration-isolated-white-background-login-button-icon-login-icon-button-126998484.jpg">
+            <a href="login_page/login.html"><h3 id="login_title">Login/SignUp</h3></a>
+        </div>
+
+        <div id="navbar_cart">
+            <img id="cart_logo" src="https://images.all-free-download.com/images/graphiclarge/green_shopping_cart_icon_vector_280755.jpg">
+            <h3 id="cart_title">Cart</h3>
+        </div>
+      <h2 id="customerName"></h2>
+
+    </div>
+
+
+    <!--NAVBAR LOWER BODY-->
+    <div id="navbar_lower_body">
+        <a href="index.html"><h3 id="home_title">Home</h3></a>
+        <a href="plant_page/plant.html"><h3 id="plant_title">Plants</h3></a>
+        <a href="seed_page/seed.html"><h3 id="seed_title">Seeds</h3></a>
+        <a href="planters_page/planter.html"><h3 id="planter_title">Planters</h3></a>
+        <a href="index.html"><h3 id="logout" onclick="logout()">About</h3></a>
+        
+
+    </div>
+
+
+
+    <!--SLIDING CHANGING IMAGE-->
+   
+    <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="https://flowershut.com/pub/media/images/landing/plant/plant_banner.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="https://myfreshair.in/wp-content/uploads/2021/06/Indoor-Plant-Banner-04-1.jpg" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="https://www.plantmyplace.com/wp-content/uploads/2022/08/keep-your-surrounding-heavenly-2-1.webp" style="width:100%">
+      <div class="text"></div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+ 
+
+    
+
+  <!--DISPLAY PRODUCT IN HOME PAGE-->
+   <h1 id="heading_imported">Imported Winter Flowers Bulbs</h1>
+    <div id="imported_plants">
+
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0047/9730/0847/collections/208243ea2a5605e9943058a60a3cf1e7_0295f4b1-99cc-4e36-b809-58375436938b_260x260.jpg?v=1614090010">
+        <p>Ranunculus Flower Bulbs</p>
+      </div>
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0047/9730/0847/collections/41645e2dc5e3bac2ae240a123fb17519_260x260.jpg?v=1614089785">
+        <p>Hyacinth Flower Bulbs</p>
+      </div>
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0047/9730/0847/collections/3deea72de3e1251177beb61e9648481d_260x260.jpg?v=1614118722">
+        <p>Tulip Flower Bulbs</p>
+      </div>
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0047/9730/0847/collections/60713d771e8e222d7a50ff71da6fb980_260x260.jpg?v=1614079145">
+        <p>Daffodil Flower Bulbs</p>
+      </div>
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0047/9730/0847/collections/8357c7245d7d7e207ea248759b0dbfc0_260x260.jpg?v=1614089790">
+        <p>Iris Flower Bulbs</p>
+      </div>
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0047/9730/0847/collections/093cef4f08ff326611cb1ee1b82cbb77_260x260.jpg?v=1614078957">
+        <p>Gladiolus Flower Bulbs</p>
+      </div>
+    </div>
+
+    <a href=".com"><div id="view_more">View More</div></a>
+
+
+    <!--IMAGE IN GRIF TYPE HOMEPAGE-->
+
+    <div id="home_grid">
+
+      <div id="grid_1outer_part">
+            <div>
+              <img src="https://user-images.githubusercontent.com/101376689/200726383-186a62f1-cff9-4ae5-9c4f-7940c354b7cf.png" alt="offer image">
+            </div>
+            <div>
+              <img src="https://user-images.githubusercontent.com/101376689/200725783-af28ca99-6d7d-4d73-a62d-ee0ea1d2aa31.png" alt="offer image">
+            </div>
+
+      </div>
+
+
+
+      <!--2nd part-->
+      <div id="grid_2outer_part">
+            <div>
+              <img src="https://user-images.githubusercontent.com/101376689/200725878-7450ff52-f820-4a5b-9322-818d8020039e.png">
+            </div>
+            <div>
+              <img src="https://user-images.githubusercontent.com/101376689/200725938-5ee0bf2c-7d32-4687-8f1c-60598b7fe868.png">
+            </div>
+            <div>
+              <img src="https://user-images.githubusercontent.com/101376689/200726002-345160b1-e298-4c4b-a1a4-c9b6acf219da.png">
+            </div>
+
+      </div>
+
+
+    </div>
+
+
+    <!--FOOTER PART-->
+    <div id="appdownload">
+      <div>Garden as though you will live forever</div>
+      <div>
+          <h2>Download the App for free</h2>
+          <div class="playstore">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/4e4f1cab.png" alt="">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/83095c03.png" alt="">
+
+          </div>
+      </div>
+     
+  </div>
+  <!-- Footer -->
+  <div id="footer">
+      <div id="contacts">
+          <!--All Contact Details Column wise-->
+          <div>
+              <!-- First Column -->
+             
+                  <!-- Company -->
+                  <h3>Company</h3>
+                  <a class="hello" href="">About Natures Nursery</a>
+                  <a class="hello" href="">Privacy Policy</a>
+                  <a class="hello" href="">Refund Policy</a>
+                  <a class="hello" href="">Shipping Policy</a>
+                  
+          </div>
+          <div>
+              <!-- Second Column -->
+
+                  <!-- Featured Categories -->
+                  <h3>Gardening Knowledge</h3>
+                  <a class="hello" href="">Blogs > Plant Talk</a>
+                  <a class="hello" href="">Blog > Kitchen Gardening</a>
+                  <a class="hello" href="">Blogs > Top 10 Plants</a>
+                  <a class="hello" href="">Blog > Plant Styling and DIY's</a>
+                  <a class="hello" href="">Blogs > Sustainable Living</a>
+                  <a class="hello" href="">blog.naturesnursery.com</a>
+                  <a class="hello" href="">wiki.naturesnursery.com</a>
+                  
+          </div>
+          <div>
+              <!-- Third Column -->
+
+                  <!-- Need Help -->
+                  <h3>Useful Links</h3>
+                  <a class="hello" href="">Track Order</a>
+                  <a class="hello" href="">Orders</a>
+                  <a class="hello" href="">Rewards</a>
+                  <a class="hello" href="">FAQs</a>
+
+                  <!-- Policy Info -->
+                  <!-- <h3>Policy Info</h3>
+                  <a class="hello" href="">Editorial Policy</a>
+                  <a class="hello" href="">Privacy Policy</a>
+                  <a class="hello" href="">Vulnerability Disclosure Policy</a>
+                  <a class="hello" href="">Terms and Conditions</a>
+                  <a class="hello" href="">Customer Support Policy</a>
+                  <a class="hello" href="">Return Policy</a> -->
+
+          </div>
+          <div>
+              <!-- Fourth Column -->
+              <h3>FOLLOW US</h3>
+              <div class="images">
+                  <img class="socialmediaimg" src="https://cute-jalebi-e15c39.netlify.app/Social%20Media%20icons/instagram.png" alt="">
+                  <img class="socialmediaimg" src="https://cute-jalebi-e15c39.netlify.app/Social%20Media%20icons//facebook.png" alt="">
+                  <img class="socialmediaimg" src="https://cute-jalebi-e15c39.netlify.app/Social%20Media%20icons//youtube.png" alt="">
+                  <img class="socialmediaimg" src="https://cute-jalebi-e15c39.netlify.app/Social%20Media%20icons//twitter.png" alt="">
+  
+              </div>
+          </div>
+      </div>
+      <div id="paypart">
+          <!--Our Payment Partners-->
+          <h3>Our Payment Partners</h3>
+          <div class="partenrimg">
+              <img class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/Gpay.svg" alt="">
+              <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/paytm.svg" alt="">
+              <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/amazonpay.svg" alt="">
+              <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/phonepe.svg" alt="">
+              <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/mobikwik.svg" alt="">
+              <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/airtelPay.svg" alt="">
+              <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/OlaMoney.svg" alt="">
+              <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/visa.svg" alt="">
+              <img  class="paymentimg" src="https://cute-jalebi-e15c39.netlify.app/Payment%20Partner%20Icons/rupay.svg" alt="">
+             
+          </div>
+          <span> &copy; 2022 Natures Nursery. All Rights Reserved</span>
+        </div>
+</body>
+</html>
+
+<script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+if(localStorage.getItem("name")!="hi,guest"){
+  let cname=document.getElementById("customerName");
+  cname.innerText=`hi,${localStorage.getItem("name")}`;
+  
+  let lout=document.getElementById("logout");
+  lout.innerText="Logout";
+}
+
+let logout=async()=>{
+  console.log("anish")
+ localStorage.setItem("name","hi,guest");
+ let cname=document.getElementById("customerName");
+ cname.innerText=localStorage.getItem("name")
+
+ let uuid=localStorage.getItem("uuid");
+
+ let response= await fetch(`http://localhost:8060/naturenursery/logout?key=${uuid}`,{
+  method:"PATCH",
+  headers : {'Content-Type' : 'application/json'},
+ })
+ let dat= await response.json();
+ console.log(dat)
+localStorage.setItem("uuid","");
+ 
+}
+
+</script>
+
